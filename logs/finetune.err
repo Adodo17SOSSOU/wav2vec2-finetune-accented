@@ -1,0 +1,15 @@
+/home/ids/asossou/miniconda3/envs/asr_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Map:   0%|          | 0/24 [00:00<?, ? examples/s]Map:  42%|████▏     | 10/24 [00:00<00:00, 91.06 examples/s]Map: 100%|██████████| 24/24 [00:00<00:00, 108.93 examples/s]Map: 100%|██████████| 24/24 [00:00<00:00, 101.83 examples/s]
+Map:   0%|          | 0/3 [00:00<?, ? examples/s]Map: 100%|██████████| 3/3 [00:00<00:00, 128.44 examples/s]
+/home/ids/asossou/miniconda3/envs/asr_env/lib/python3.10/site-packages/torch/nn/utils/weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/wav2vec2-base-960h and are newly initialized: ['wav2vec2.masked_spec_embed']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Traceback (most recent call last):
+  File "/tsi/medical/SSL-Brain/Projects/fine_tune_wav2vec2_accented/scripts/fine_tune.py", line 104, in <module>
+    training_args = TrainingArguments(
+  File "<string>", line 110, in __init__
+  File "/home/ids/asossou/miniconda3/envs/asr_env/lib/python3.10/site-packages/transformers/training_args.py", line 1263, in __post_init__
+    raise ValueError(
+ValueError: FP16 Mixed precision training with AMP or APEX (`--fp16`) and FP16 half precision evaluation (`--fp16_full_eval`) can only be used on CUDA devices.

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "data/common_voice/raw/common_voice_16_en/en/clips/common_voice_en_38717781.mp3",
+    "text": "What's yours, Jeff?",
+    "prediction": "WHAT'S YOURS JEF"
+  },
+  {
+    "path": "data/common_voice/raw/common_voice_16_en/en/clips/common_voice_en_38939728.mp3",
+    "text": "One major daily newspaper serves the Michiana Metro area, the \"South Bend Tribune\".",
+    "prediction": "ONE MEJOR DAILY NEWSPAPER SERVES A MICANA MITROARIA THE SAUSBEN'S TRIGAN"
+  },
+  {
+    "path": "data/common_voice/raw/common_voice_16_en/en/clips/common_voice_en_38692308.mp3",
+    "text": "Atlanta put Sandtown's application on hold.",
+    "prediction": "ATLENTAR PUT SAINT STONE'S APPLICATION ON HALT"
+  },
+  {
+    "path": "data/common_voice/raw/common_voice_16_en/en/clips/common_voice_en_38717751.mp3",
+    "text": "Unfortunately this legend is not supported by archaeological evidence so its validity is disputable.",
+    "prediction": "UNFORTUNATELY DIS LIGENCE IS NOT SPORTED BY ARCHELOGICAL EVIDENCE SUCH FELIDITY IS DISPUTABLE"
+  }
+]
